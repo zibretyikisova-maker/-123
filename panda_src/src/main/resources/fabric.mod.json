@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "pandafurnace",
+  "version": "${version}",
+  "name": "FurnaceSpawner",
+  "description": "Press Y to choose a client-side spawner mob preview on furnaces.",
+  "authors": [
+    "PandaFurnace"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.pandafurnace.PandaFurnaceClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "license": "MIT"
+}

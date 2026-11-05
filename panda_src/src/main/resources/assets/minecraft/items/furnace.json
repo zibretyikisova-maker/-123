@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "pandafurnace:item/panda_spawner"
+  }
+}
